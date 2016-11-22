@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PrimeChat</string>
+    <string name="ff_regular">sans-serif</string>
+    <string name="ff_medium">sans-serif</string>
+
+
+    <!--AuthActivity-->
+    <string name="auth.authorization_enter">Войти</string>
+    <string name="auth.login_text">Введите логин</string>
+    <string name="auth.password">Введите пароль</string>
+    <string name="auth.login">Войти</string>
+    <string name="auth.remember">Забыли пароль?</string>
+
+
+    <string name="chat_toast_wllcome">"Добро пожаловать, "</string>
+    <string name="tab_enter">Войти</string>
+    <string name="tab_register">Регистрация</string>
+    <string name="login_toast_mess_invalid">Заполните поле логина / пароля</string>
+    <string name="login_toast_mess_internet">Включите интернет</string>
+    <string name="login_toast_incorrect_data">Неверные данные для входа</string>
+    <string name="register_toast_login_used">Этот логин уже используется</string>
+
+    <!--XML-->
+    <string name="xml_activity_login_enter">Вход</string>
+    <string name="xml_login_text_login">Войти</string>
+    <string name="xml_register_text_register">Зарегистрироваться</string>
+    <string name="xml_register_name_register">Регистрация</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <ScrollView
+            android:id="@+id/chat_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@drawable/message_edit_text_background"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <LinearLayout android:id="@+id/chat_linLayout"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+            </LinearLayout>
+
+        </ScrollView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/chat_message_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/message_edit_text_background"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif"
+                android:gravity="top|left"
+                android:hint="Введите соообщение"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/chat_send_btn"
+                android:layout_width="56dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/selector_btn_ok"
+                android:clickable="true"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Ok"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
